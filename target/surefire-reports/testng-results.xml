@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpeningTests" duration-ms="68224" started-at="2020-06-29T12:35:26Z" finished-at="2020-06-29T12:36:34Z">
+    <groups>
+    </groups>
+    <test name="UItests" duration-ms="46721" started-at="2020-06-29T12:35:26Z" finished-at="2020-06-29T12:36:13Z">
+      <class name="ru.opening.ui.test.OpeningTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ru.opening.ui.test.OpeningTest@458ad742]" name="setup" is-config="true" duration-ms="168" started-at="2020-06-29T12:35:26Z" finished-at="2020-06-29T12:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="currencyPriceCheckTest()[pri:0, instance:ru.opening.ui.test.OpeningTest@458ad742]" name="currencyPriceCheckTest" duration-ms="27698" started-at="2020-06-29T12:35:26Z" finished-at="2020-06-29T12:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencyPriceCheckTest -->
+        <test-method status="PASS" signature="openBankSiteTest()[pri:0, instance:ru.opening.ui.test.OpeningTest@458ad742]" name="openBankSiteTest" duration-ms="12814" started-at="2020-06-29T12:35:54Z" finished-at="2020-06-29T12:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBankSiteTest -->
+        <test-method status="PASS" signature="searchOpeningSiteTest()[pri:0, instance:ru.opening.ui.test.OpeningTest@458ad742]" name="searchOpeningSiteTest" duration-ms="6014" started-at="2020-06-29T12:36:07Z" finished-at="2020-06-29T12:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOpeningSiteTest -->
+      </class> <!-- ru.opening.ui.test.OpeningTest -->
+    </test> <!-- UItests -->
+    <test name="ServiceTests" duration-ms="20904" started-at="2020-06-29T12:36:13Z" finished-at="2020-06-29T12:36:34Z">
+      <class name="ru.opening.rest.test.UserListTest">
+        <test-method status="PASS" signature="restServiceTest()[pri:0, instance:ru.opening.rest.test.UserListTest@396a51ab]" name="restServiceTest" duration-ms="19845" started-at="2020-06-29T12:36:13Z" finished-at="2020-06-29T12:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restServiceTest -->
+      </class> <!-- ru.opening.rest.test.UserListTest -->
+      <class name="ru.opening.rest.test.UserAddTest">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:ru.opening.rest.test.UserAddTest@51081592]" name="createUser" is-config="true" duration-ms="144" started-at="2020-06-29T12:36:33Z" finished-at="2020-06-29T12:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="addUserTest()[pri:0, instance:ru.opening.rest.test.UserAddTest@51081592]" name="addUserTest" duration-ms="912" started-at="2020-06-29T12:36:33Z" finished-at="2020-06-29T12:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTest -->
+      </class> <!-- ru.opening.rest.test.UserAddTest -->
+    </test> <!-- ServiceTests -->
+  </suite> <!-- OpeningTests -->
+</testng-results>

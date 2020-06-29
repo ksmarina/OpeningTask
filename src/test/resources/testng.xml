@@ -1,0 +1,14 @@
+<suite name="OpeningTests" verbose="1">
+    <test name="UItests">
+        <classes>
+            <class name="ru.opening.ui.test.OpeningTest"/>
+        </classes>
+    </test>
+
+    <test name="ServiceTests">
+        <classes>
+            <class name="ru.opening.rest.test.UserListTest"/>
+            <class name="ru.opening.rest.test.UserAddTest"/>
+        </classes>
+    </test>
+</suite>

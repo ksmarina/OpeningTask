@@ -1,0 +1,12 @@
+ru\opening\rest\businessObjects\UserFromList.class
+ru\opening\ui\test\OpeningTest.class
+ru\opening\ui\services\CurrenciesTableService.class
+ru\opening\rest\businessObjects\NewUser.class
+ru\opening\ui\pages\GoogleSearchResultPage.class
+ru\opening\rest\services\UserCheckService.class
+ru\opening\ui\pages\GooglePage.class
+ru\opening\rest\test\UserAddTest.class
+ru\opening\ui\businessObjects\Currency.class
+ru\opening\rest\test\UserListTest.class
+ru\opening\rest\businessObjects\NewUserAnswer.class
+ru\opening\ui\pages\OpeningPage.class
